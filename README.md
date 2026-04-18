@@ -33,3 +33,8 @@ export GOOGLE_API_KEY="<your-api-key>"
 ```python
 python app.py
 ```
+
+## Next Steps for Futher Improvement
+1. Quantitative evaluation of different queries using the RAGAS framework
+2. Controlling hallucinations by adding guardrails through post-generation validation, where guardrails are applied to the final output
+3. Reducing the latency of the RAG system
