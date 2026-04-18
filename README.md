@@ -4,6 +4,7 @@
 To develop a RAG based document question answering system that can answer user questions using information from documents and returns relevant answers based on the query.
 
 ## Demo
+Click on the thumbnail below to watch the full demo video.
 [![Watch Demo](./assets/thumbnail.gif)](https://www.awesomescreenshot.com/video/51645922?key=60c08279765b44e007719f2917be9097)
 
 # Prerequisite
