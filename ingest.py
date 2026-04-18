@@ -22,6 +22,11 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 # Get the Gemini API key from the environment variable
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
+if not GOOGLE_API_KEY:
+    raise EnvironmentError(
+        "GOOGLE_API_KEY is not set in environment variables. Please set it before running the application."
+    )
+
 # Default Embedding model
 DEFAULT_EMBEDDING_MODEL = "gemini-embedding-001"
 

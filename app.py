@@ -88,7 +88,7 @@ def return_results(query: str, retriever: MultiVectorRetriever) -> Tuple[str, Li
     images = [decode_base64_image(img) for img in images_b64]
     return answer, images
 
-with gr.Blocks() as demo:
+with gr.Blocks(title="RAG Based Document Question Answering System") as demo:
     gr.Markdown("# Upload and Ingest Document")
 
     file_input = gr.File(label="Upload your file", file_count="single")
