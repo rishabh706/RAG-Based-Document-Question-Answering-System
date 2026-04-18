@@ -3,6 +3,9 @@
 ## Problem Statement
 To develop a RAG based document question answering system that can answer user questions using information from documents and returns relevant answers based on the query.
 
+## Demo
+[![Watch Demo](./assets/thumbnail.gif)](https://www.awesomescreenshot.com/video/51645922?key=60c08279765b44e007719f2917be9097)
+
 # Prerequisite
 
 First get the Gemini API Key from [Here](https://aistudio.google.com/app/apikey)
@@ -29,6 +32,3 @@ export GOOGLE_API_KEY="<your-api-key>"
 ```python
 python app.py
 ```
-
-## Demo (Retrieval)
-![Watch the video](https://www.awesomescreenshot.com/video/51645922?key=60c08279765b44e007719f2917be9097)
