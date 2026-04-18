@@ -89,7 +89,9 @@ def return_results(query: str, retriever: MultiVectorRetriever) -> Tuple[str, Li
     return answer, images
 
 with gr.Blocks(title="RAG Based Document Question Answering System") as demo:
-    gr.Markdown("# Upload and Ingest Document")
+    gr.Markdown("# RAG Based Document Question Answering System")
+
+    gr.Markdown("## Upload and Ingest Document")
 
     file_input = gr.File(label="Upload your file", file_count="single")
     upload_btn = gr.Button("Run Ingestion")
