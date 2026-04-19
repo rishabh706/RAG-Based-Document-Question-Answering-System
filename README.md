@@ -17,6 +17,7 @@ Click on the thumbnail below to watch the full demo video.
 ## Clone the repository using the following command
 ```bash
 git clone https://github.com/rishabh706/RAG-Based-Document-Question-Answering-System.git
+cd RAG-Based-Document-Question-Answering-System
 ```
 
 ## Create a virtual environment using the following command
