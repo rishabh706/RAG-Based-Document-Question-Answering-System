@@ -47,11 +47,11 @@ def separate_text_and_tables(data: List[Document]
     """
     The method takes a list of elements (documents) and separates the text content and tables. 
     
-    Parameters:
+    Parameters
     -----------
     data (List[str]): A list of documents, where each document may contain text content and/or tables in HTML format.
 
-    Returns:
+    Returns
     --------
     tuple: A tuple containing two lists: one containing the text content and the other containing the tables in markdown format.
     """
@@ -74,7 +74,7 @@ def build_prompt(element: str) -> str:
     The method builds a prompt for summarizing the given 
     element (text or table).
 
-    Parameters:
+    Parameters
     -----------
     element (str): The text content or table in markdown format that needs to be summarized.
 
@@ -228,7 +228,7 @@ def create_multi_vector_retriever(text_summaries: List[str],
     images to the vectorstore and their corresponding contents to 
     the docstore.
 
-    Parameters:
+    Parameters
     -----------
     text_summaries List(str): List of summaries for text documents.
     texts List(str): List of original text documents.
@@ -283,11 +283,11 @@ def trigger_ingestion(file_path: str) -> MultiVectorRetriever:
     The method takes the file path of the PDF document as input, extracts the text, tables, and images,
     generates summaries for each of them, and creates a multi-vector retriever.
 
-    Parameters:
+    Parameters
     -----------
     file_path (str): The file path of the PDF document to be ingested.
 
-    Returns:
+    Returns
     --------
     MultiVectorRetriever: A multi-vector retriever containing the summaries and original contents of text, tables, and images.
     """
