@@ -10,7 +10,7 @@ Click on the thumbnail below to watch the full demo video.
 # Prerequisite
 
 1. First get the Gemini API Key from [here](https://aistudio.google.com/app/apikey)
-2. Download the document from [here] (https://arxiv.org/pdf/1706.03762)
+2. Download the document from [here](https://arxiv.org/pdf/1706.03762)
 
 ## Steps to Setup and Run the Application
 
