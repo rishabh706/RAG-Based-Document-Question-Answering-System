@@ -1,9 +1,9 @@
 """
 The module contains code for retrieving relevant chunks from the multi-vector retriever based on the user queries.
 """
-from typing import Dict, List
 import logging
 logging.basicConfig(level=logging.INFO)
+from typing import Dict, List
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
 from langchain_classic.retrievers.multi_vector import MultiVectorRetriever

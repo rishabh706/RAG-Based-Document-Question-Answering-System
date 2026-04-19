@@ -2,9 +2,9 @@
 The module contains code for preprocessing and ingesting documents to multi-vector retrieval store.
 """
 import logging
+logging.basicConfig(level=logging.INFO)
 import shutil
 from typing import List, Tuple
-logging.basicConfig(level=logging.INFO)
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI
 import base64

@@ -1,15 +1,18 @@
+"""
+This code implements a Gradio-based web application for a RAG (Retrieval-Augmented Generation) based document question answering system.
+"""
 import gradio as gr
 import shutil
 import os
-from typing import List, Tuple
+from typing import List, Tuple, Any
 from ingest import trigger_ingestion
-from typing import Any
 from PIL import Image
 from io import BytesIO
 import base64
 from langchain_classic.retrievers.multi_vector import MultiVectorRetriever
 from retrieval import multimodal_rag
 
+# Default directory to store uploaded documents.
 DOCUMENT_DIR = "./documents"
 
 if os.path.exists(DOCUMENT_DIR):
