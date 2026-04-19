@@ -9,7 +9,8 @@ Click on the thumbnail below to watch the full demo video.
 
 # Prerequisite
 
-First get the Gemini API Key from [Here](https://aistudio.google.com/app/apikey)
+1. First get the Gemini API Key from [here](https://aistudio.google.com/app/apikey)
+2. Download the document from [here] (https://arxiv.org/pdf/1706.03762)
 
 ## Steps to Setup and Run the Application
 
@@ -33,6 +34,10 @@ export GOOGLE_API_KEY="<your-api-key>"
 ```python
 python app.py
 ```
+
+## After launching the application steps mentioned as follows
+1. Upload the downloaded document, click on the `Run Ingestion` button, and wait for the ingestion to complete.
+2. Once ingestion is complete, enter the query in the textbox—for example, `What does the transformer architecture look like?` and the results will be displayed in the UI below.
 
 ## Next Steps for Futher Improvement
 1. Quantitative evaluation of different queries using the RAGAS framework
