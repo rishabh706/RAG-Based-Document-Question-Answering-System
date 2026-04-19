@@ -40,6 +40,7 @@ export GOOGLE_API_KEY="<your-api-key>"
 ```python
 python app.py
 ```
+Access the application at ```http://127.0.0.1:7860/```
 
 ## After launching the application follow the below mentioned steps
 1. Upload the downloaded document, click on the `Run Ingestion` button, and wait for the ingestion to complete
