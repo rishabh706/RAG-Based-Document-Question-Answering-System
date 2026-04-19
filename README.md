@@ -14,6 +14,11 @@ Click on the thumbnail below to watch the full demo video.
 
 ## Steps to Setup and Run the Application
 
+## First clone the repository using the following command
+```bash
+git clone https://github.com/rishabh706/RAG-Based-Document-Question-Answering-System.git
+```
+
 ## First create a virtual environment using the following command
 ```python
 python -m venv doc_qa_env
